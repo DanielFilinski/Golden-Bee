@@ -7,35 +7,35 @@ export const ProductsSection = () => {
     {
       id: 1,
       name: 'Липовый мед',
-      price: '800 ₽',
-      image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400',
+      price: '20 P',
+      image: 'https://kopyllh.by/wp-content/uploads/2024/07/a492f467b51601c77f2f9e8016d76e37.jpg',
       rating: 5,
       description: 'Нежный липовый мед с цветочным ароматом',
-      weight: '500г'
+      weight: '1000г'
     },
     {
       id: 2,
-      name: 'Гречишный мед',
-      price: '900 ₽',
-      image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400',
+      name: 'Пыльца',
+      price: '50 Р',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSslobxFG8C48aK9QHvbT8iv1ZyS6twrf5cSQ&s',
       rating: 5,
       description: 'Темный мед с насыщенным вкусом',
-      weight: '500г'
+      weight: '1000г'
     },
     {
       id: 3,
       name: 'Цветочный мед',
-      price: '750 ₽',
-      image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400',
+      price: '30 Р',
+      image: 'https://image.jimcdn.com/app/cms/image/transf/none/path/s425efbacbd31cd1a/backgroundarea/id33163245de25423/version/1457428340/image.jpg',
       rating: 5,
       description: 'Разнотравный мед с богатым букетом',
-      weight: '500г'
+      weight: '1 шт'
     },
     {
       id: 4,
       name: 'Прополис',
-      price: '1200 ₽',
-      image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400',
+      price: '40 P',
+      image: 'https://kopyllh.by/wp-content/uploads/2024/07/a492f467b51601c77f2f9e8016d76e37.jpg',
       rating: 5,
       description: 'Натуральный прополис для здоровья',
       weight: '20г'
@@ -43,8 +43,8 @@ export const ProductsSection = () => {
     {
       id: 5,
       name: 'Пчелиный воск',
-      price: '600 ₽',
-      image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400',
+      price: '40 P',
+      image: 'https://kopyllh.by/wp-content/uploads/2024/07/a492f467b51601c77f2f9e8016d76e37.jpg',
       rating: 5,
       description: 'Чистый пчелиный воск высшего качества',
       weight: '100г'
@@ -52,8 +52,8 @@ export const ProductsSection = () => {
     {
       id: 6,
       name: 'Медовые соты',
-      price: '1500 ₽',
-      image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400',
+      price: '40 P',
+      image: 'https://kopyllh.by/wp-content/uploads/2024/07/a492f467b51601c77f2f9e8016d76e37.jpg',
       rating: 5,
       description: 'Свежие медовые соты в естественном виде',
       weight: '300г'
@@ -109,6 +109,7 @@ export const ProductsSection = () => {
                     <span>В корзину</span>
                   </button>
                 </div>
+                
               </div>
             </div>
           ))}

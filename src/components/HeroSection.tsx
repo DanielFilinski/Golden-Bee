@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { ArrowRight, Star } from 'lucide-react';
+import AnimatedNumber from './AnimatedNumber';
 
 export const HeroSection = () => {
   return (
@@ -46,15 +46,15 @@ export const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 pt-16 border-t border-amber-200">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2">15+</div>
+              <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2"><AnimatedNumber value={15} suffix="+" /></div>
               <div className="text-gray-600">лет опыта</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2">500+</div>
+              <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2"><AnimatedNumber value={500} suffix="+" /></div>
               <div className="text-gray-600">довольных клиентов</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2">100%</div>
+              <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2"><AnimatedNumber value={100} suffix="%" /></div>
               <div className="text-gray-600">натуральные продукты</div>
             </div>
           </div>

@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <div className="text-2xl font-bold text-amber-400 mb-4">🐝 Золотая Пасека</div>
+            <div className="text-2xl font-bold text-amber-400 mb-4">🐝 Пасека Пузанова</div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Семейная пасека с 15-летним опытом производства натуральных продуктов пчеловодства. 
               Мы заботимся о качестве и следуем традициям наших предков.
@@ -63,7 +63,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Золотая Пасека. Все права защищены.
+            © 2024 Пасека Пузанова. Все права защищены.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-amber-400 text-sm transition-colors">Политика конфиденциальности</a>

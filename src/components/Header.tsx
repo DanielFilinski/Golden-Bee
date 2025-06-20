@@ -11,7 +11,7 @@ export const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-amber-600">🐝 Золотая Пасека</div>
+            <div className="text-2xl font-bold text-amber-600">🐝 Пасека Пузанова</div>
           </div>
 
           {/* Desktop Navigation */}
